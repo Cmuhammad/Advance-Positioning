@@ -32,10 +32,10 @@
         </div>
       </div>
       <script>
-        var left = 0;
+        let left = 0;
       
         function frame() {
-          var element = document.querySelector('.item-relative');
+          let element = document.querySelector('.item-relative');
           left += 2;
           element.style.left = left + 'px';
           if (left >= 300) {
