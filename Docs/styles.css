@@ -29,6 +29,11 @@
     top: 10px;
     left: 10px;
   }
+  .item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
   
   .item img {
     display: block;
